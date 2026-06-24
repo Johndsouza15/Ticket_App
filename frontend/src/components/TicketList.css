@@ -1,0 +1,105 @@
+/* Simple CSS for Ticket List */
+
+.ticket-list {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.ticket-list h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+}
+
+/* Ticket Card */
+.Ticket-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 18px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.Ticket-card h3 {
+    margin: 0 0 12px 0;
+    color: #222;
+    font-size: 22px;
+}
+
+.Ticket-card p {
+    margin: 8px 0;
+    color: #555;
+}
+
+/* Status Badge */
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status-open {
+    align-items: center;
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-in-progress {
+    align-items: center;
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.status-resolved {
+    align-items: center;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Buttons Container */
+.ticket-button {
+    margin-top: 15px;
+    display: grid;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ticket-button button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Action Buttons */
+.ticket-button button:not(.delete-btn) {
+    background-color: #007bff;
+    color: white;
+}
+
+.ticket-button button:not(.delete-btn):hover {
+    background-color: #0066cc;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* No Tickets Message */
+.ticket-list p {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 30px;
+}

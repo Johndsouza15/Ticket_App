@@ -1,0 +1,70 @@
+div {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+form {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #222222;
+  
+
+  border: 1px solid #111111;
+  padding: 30px; 
+  border-radius: 4px; 
+}
+
+input[type="text"], 
+textarea, 
+select {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #111111; 
+  border-radius: 0;
+  padding: 8px 0;
+  margin-top: 4px;
+  margin-bottom: 28px; 
+  font-size: 16px;
+  color: #333333;
+  box-sizing: border-box;
+  -webkit-appearance: none; 
+}
+
+input[type="text"]:focus, 
+textarea:focus, 
+select:focus {
+  outline: none;
+  border-bottom-color: #ff4757; 
+}
+
+textarea {
+  height: 50px;
+  resize: none;
+}
+
+.Submit {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin:auto; 
+  display: flex;
+}
+
+.Submit:hover {
+  background-color: #ff4757;
+}
